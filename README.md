@@ -8,12 +8,12 @@ Most of these projects started with something that was too slow, too fragile, to
 
 | Project | The irritation | The response |
 |---|---|---|
-| [Concur Buddy](https://github.com/dtiger1889-ops/concur-buddy-app) | Expense reports begin days before the expense-report system is ready for you. | A local Windows staging desk for receipts, codes, attendees, reconciliation, and everything you will otherwise forget. |
 | [Claude Code Harness Toolbox](https://github.com/dtiger1889-ops/claude-harness-toolbox) | AI agents forget the project every time the context resets. | A durable-memory harness with orientation rules, compressed checkpoints, hooks, and reusable skills. |
-| [Harness Benchmark](https://github.com/dtiger1889-ops/harness-benchmark-report) | “This workflow feels better” is not evidence. | 154 paired trials measuring when a persistent agent harness saves work—and when it becomes overhead. |
 | [Hintforge](https://github.com/hintforge/builder) | Game guides either spoil everything or make you hunt through ads for one answer. | A spoiler-controlled companion that knows where you are, reveals only what you ask for, and remembers your progress. |
+| [Concur Buddy](https://github.com/dtiger1889-ops/concur-buddy-app) | Expense reports begin days before the expense-report system is ready for you. | A local Windows staging desk for receipts, codes, attendees, reconciliation, and everything you will otherwise forget. |
 | [Game Sale Scout](https://github.com/dtiger1889-ops/game-sale-scout) | A discount answers “is it cheap?” rather than “will I actually play it?” | A taste model built from real playtime that scores sales, giveaways, and backlog choices against demonstrated preferences. |
 | [Obsidian + Claude](https://github.com/dtiger1889-ops/obsidian-claude-integration) | A second brain becomes another inbox unless something keeps it organized. | A worked system for phone capture, agent-assisted filing, approval gates, and durable project memory. |
+| [Harness Benchmark](https://github.com/dtiger1889-ops/harness-benchmark-report) | “This workflow feels better” is not evidence. | 154 paired trials measuring when a persistent agent harness saves work—and when it becomes overhead. |
 
 ## The recurring pattern
 

@@ -1,27 +1,24 @@
 # D.M.
 
-I build useful things at the intersection of personal friction and unreasonable follow-through.
+I have always tried to streamline any task I have to do more than once. I'm not a developer, but coding agents turned that habit into the projects below. Almost all of them started with something in my own day that was slow or easy to forget, and I kept going long after a reasonable person would have stopped.
 
-Most of these projects started with something that was too slow, too fragile, too easy to forget, or simply more annoying than it had any right to be. Then I kept going until the response was wildly disproportionate to the original problem.
+## Projects
 
-## I make small problems regret getting my attention.
+- **[Claude Code Harness Toolbox](https://github.com/dtiger1889-ops/claude-harness-toolbox).** Coding agents forget the whole project every time the context resets, and I got tired of explaining everything again. This is the harness I built around them: orientation rules, short checkpoint files, hooks, and skills that carry a project from one session to the next.
 
-| Project | The irritation | The response |
-|---|---|---|
-| [Claude Code Harness Toolbox](https://github.com/dtiger1889-ops/claude-harness-toolbox) | AI agents forget the project every time the context resets. | A durable-memory harness with orientation rules, compressed checkpoints, hooks, and reusable skills. |
-| [Hintforge](https://github.com/hintforge/builder) | Game guides either spoil everything or make you hunt through ads for one answer. | A spoiler-controlled companion that knows where you are, reveals only what you ask for, and remembers your progress. |
-| [Life OS](https://github.com/dtiger1889-ops/life-os) | Personal life-admin lives in a dozen cloud apps that own your data and stop working the moment you go offline. | One SQLite data layer on your own PC feeding an offline-first Android app, browser dashboards, and an agent, plus a playbook that adds a new life domain in an afternoon. |
-| [Concur Buddy](https://github.com/dtiger1889-ops/concur-buddy-app) | Expense reports begin days before the expense-report system is ready for you. | A local Windows staging desk for receipts, codes, attendees, reconciliation, and everything you will otherwise forget. |
-| [whatdoweplay](https://github.com/dtiger1889-ops/whatdoweplay) | A discount answers "is it cheap?" rather than "will I actually play it?", and a group on Discord spends the first hour deciding what to play. | A taste model built from real playtime that scores sales, giveaways, and backlog choices, plus a friends-night picker that only offers games everyone present already owns. |
-| [Obsidian Integration](https://github.com/dtiger1889-ops/obsidian-agent-integration) | A second brain becomes another inbox unless something keeps it organized. | A worked system for phone capture, agent-assisted filing, approval gates, and durable project memory. |
+- **[Hintforge](https://github.com/hintforge/builder).** I wanted help with games without getting spoiled or scrolling through an ad-covered wiki for one answer. Hintforge is a hint companion that knows where you are in the game, only answers what you ask, and remembers your progress.
 
-## The recurring pattern
+- **[Life OS](https://github.com/dtiger1889-ops/life-os).** My life admin was spread across a dozen cloud apps that own the data and stop working offline. Life OS keeps it in one SQLite database on my own PC, with an offline-first Android app, browser dashboards, and an agent on top. It also comes with a playbook for adding a new area of life in an afternoon.
 
-- **Local first when the data is personal.** Privacy should be structural, not a promise in the footer.
-- **Evidence over vibes.** If a system claims to help, I want a test, a counter, or an audit trail.
-- **Build for the tired version of the user.** The useful workflow is the one that still works when someone is distracted, rushed, or already annoyed.
-- **Mechanisms over demos.** I care less about making something work once than making it survive the next use, the next session, and the next mistake.
+- **[Concur Buddy](https://github.com/dtiger1889-ops/concur-buddy-app).** Concur is slow enough that I wait and file my expenses all at once, and by then the details are gone. Concur Buddy is a local Windows app where logging an expense takes one field, and when it's time to finish the report it pulls in the card charges Concur added and merges them with what I already logged.
 
----
+- **[whatdoweplay](https://github.com/dtiger1889-ops/whatdoweplay).** Steam sales tell me what's cheap, and I wanted something that tells me what I'll actually play. It scores sales, giveaways, and my backlog against a taste model built from real playtime. The friends-night picker came later, because a group on Discord can lose an hour deciding what to play, and it only offers games everyone in the call already owns.
 
-*I see an irritating workflow and respond with wildly disproportionate competence.*
+- **[Obsidian Integration](https://github.com/dtiger1889-ops/obsidian-agent-integration).** A second brain turns into another inbox unless something keeps it organized. This is the setup I use for capturing notes from my phone, letting an agent file them, approval gates, and project memory that lasts between sessions.
+
+## How I build
+
+- Personal data stays local. Privacy should come from how the thing is built, not from a promise in the footer.
+- If a tool claims to help, I want a test, a counter, or an audit trail that shows it.
+- I build for the tired version of the user, the one who is distracted or already annoyed.
+- I care more about something surviving the next session and the next mistake than about it working once in a demo.

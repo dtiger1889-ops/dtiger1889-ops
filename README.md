@@ -4,6 +4,8 @@ I have always tried to streamline any task I have to do more than once. I'm not 
 
 Browse my projects at **[mackforge.dev](https://mackforge.dev/)**.
 
+![The public project catalogue with example thumbnails](assets/project-catalogue.png)
+
 I also keep a [comparison of agent managers](https://dtiger1889-ops.github.io/agent-deck-comparison/), the tools for running several coding agents at once, compared feature by feature.
 
 ## Projects

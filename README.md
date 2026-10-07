@@ -2,6 +2,8 @@
 
 I have always tried to streamline any task I have to do more than once. I'm not a developer, but coding agents turned that habit into the projects below. Almost all of them started with something in my own day that was slow or easy to forget, and I kept going long after a reasonable person would have stopped.
 
+Browse my projects at **[mackforge.dev](https://mackforge.dev/)**.
+
 I also keep a [comparison of agent managers](https://dtiger1889-ops.github.io/agent-deck-comparison/), the tools for running several coding agents at once, compared feature by feature.
 
 ## Projects
